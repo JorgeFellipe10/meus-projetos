@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+:root {
+    --azul: #1452fe;
+    --roxo: #6b13ff;
+    --rosa: #c814fe;
+    --azulclaro: #4fa1c3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #e9e4c8;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--azul), var(--rosa));
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding: 25px 10px 0px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+header > p {
+    color: white;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+nav {
+    background-color: var(--rosa);
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    color: rgb(194, 191, 191);
+    border-radius: 10px;
+    background-color: var(--roxo);
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 25px;
+    padding: 20px 10px 10px 10px;
+    font-size: 40px;
+}
+
+main h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
+
+main p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 10px 30px 10px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 40px;
+}
+
+main .gameloft {
+    background-color: var(--azulclaro);
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gameloft:hover {
+    text-decoration: underline;
+    background-color: var(--rosa);
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+section {
+    background-color: var(--azulclaro);
+    padding: 30px;
+    margin: 50px -10px 50px -10px;
+}
+
+section > iframe{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+div {
+    text-align: center;
+    background-color: var(--rosa);
+    border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    height: 175px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);;
+}
+
+div > h1 {
+    font-size: 40px;
+    color: rgb(247, 247, 247);
+    background-color: var(--azul);
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+div > button {
+    margin-top: 20px;
+    background-color: var(--azulclaro);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+div > button:hover {
+    transform: scale(1.05);
+}
+
+button > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside {
+    max-height: 100%;
+    background-color: var(--azulclaro);
+    margin: 60px -5px 20px -5px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+aside > h1 {
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+    background-color: var(--roxo);
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+aside > ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    margin: 20px 0px 0px 30px;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    color: var(--azul);
+}
+
+article > ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--azul);
+    margin-top: 60px;
+    padding: 5px;
+    color: #e9e4c8;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+}
