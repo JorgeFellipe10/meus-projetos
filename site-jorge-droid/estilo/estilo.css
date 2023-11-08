@@ -18,6 +18,7 @@
 
 body {
     background-color: #e9e4c8;
+    height: 100vh;
 }
 
 header {
@@ -29,13 +30,13 @@ header > h1 {
     text-align: center;
     padding: 25px 10px 0px 10px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3em;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
 }
 
 header > p {
     color: white;
-    padding: 20px;
+    padding: 5px 10px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
@@ -44,13 +45,16 @@ header > p {
 nav {
     background-color: var(--rosa);
     padding: 10px;
+    text-align: center;
 }
 
 nav > a {
     color: white;
+    font-size: 1em;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
     transition-duration: 0.5s;
 }
@@ -64,7 +68,7 @@ nav > a:hover {
 main {
     background-color: whitesmoke;
     padding: 10px;
-    width: 80%;
+    width: 90vw;
     margin: auto;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
     border-radius: 0px 0px 10px 10px;
@@ -74,7 +78,7 @@ main h1 {
     font-family: 'Bebas Neue', sans-serif;
     margin-top: 25px;
     padding: 20px 10px 10px 10px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 main h2 {
@@ -105,22 +109,26 @@ main .gameloft {
 }
 
 main img {
-    max-width: 100%;
+    width: 90vw;
+    height: 26vh;
     display: block;
     margin: auto;
 }
 
 section {
     background-color: var(--azulclaro);
-    padding: 30px;
+    padding: 120px 0px;
     margin: 50px -10px 50px -10px;
+    position: relative;
 }
 
 section > iframe{
-    max-width: 100%;
-    display: block;
-    margin: auto;
-    
+    position: absolute;
+    width: 85vw;
+    height: 25vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 div {
@@ -128,24 +136,25 @@ div {
     background-color: var(--rosa);
     border-radius: 10px;
     margin: auto;
-    width: 60%;
-    height: 175px;
+    width: 90vw;
+    height: 170px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);;
 }
 
 div > h1 {
-    font-size: 40px;
+    font-size: 30px;
+    width: 84.5vw;
     color: rgb(247, 247, 247);
     background-color: var(--azul);
     border-radius: 10px 10px 0px 0px;
-    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.281);
 }
 
 div > button {
     margin-top: 20px;
+    padding: 10px;
     background-color: var(--azulclaro);
-    width: 200px;
-    height: 40px;
+    width: 50vw;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -164,16 +173,14 @@ button > a {
 }
 
 aside {
-    max-height: 100%;
     background-color: var(--azulclaro);
-    margin: 60px -5px 20px -5px;
-    height: 230px;
+    margin: 60px 0px 20px 0px;
     border-radius: 10px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.24);
 }
 
 aside > h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(247, 247, 247);
     background-color: var(--roxo);
     border-radius: 10px 10px 0px 0px;
@@ -187,6 +194,7 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     margin: 20px 0px 0px 30px;
+    padding-bottom: 20px;
 }
 
 li > a {
@@ -210,8 +218,8 @@ footer {
     font-size: 18px;
     text-align: center;
     background-color: var(--azul);
-    margin-top: 60px;
-    padding: 5px;
+    margin-top: 50px;
+    padding: 6px;
     color: #e9e4c8;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
 }

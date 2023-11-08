@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 640px) and (max-width: 1279px) {
+    nav {
+        text-align: left;
+    }
+
+    main img {
+        width: 90vw;
+        height: 80vh;
+        display: block;
+        margin: auto;
+    }
+
+    section {
+        background-color: var(--azulclaro);
+        padding: 160px 0px;
+        margin: 50px -10px 50px -10px;
+        position: relative;
+    }
+
+    section > iframe{
+        position: absolute;
+        width: 68vw;
+        height: 80vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    div {
+        text-align: center;
+        background-color: var(--rosa);
+        border-radius: 10px;
+        margin: auto;
+        width: 90vw;
+        height: 170px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);;
+    }
+
+    div > h1 {
+        font-size: 30px;
+        width: 86.9vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+}
