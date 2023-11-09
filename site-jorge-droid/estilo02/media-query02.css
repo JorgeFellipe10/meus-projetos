@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 640px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 42vh;
+    }
+
+    main p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    header > h1 {
+        font-size: 4em;
+    }
+
+    header > p {
+        font-size: 1.2em;
+    }
+
+    nav > a {
+        font-size: 1.2em;
+    }
+
+    main img {
+        width: 42vw;
+        height: 35vh;
+    }
+
+    main p {
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin-top: 311px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    
+}

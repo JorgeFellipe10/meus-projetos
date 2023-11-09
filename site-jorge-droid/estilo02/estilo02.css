@@ -18,6 +18,7 @@
 
 body {
     background-color: #e9e4c8;
+    height: 100vh;
 }
 
 header {
@@ -29,16 +30,16 @@ header > h1 {
     text-align: center;
     padding: 25px 10px 0px 10px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 3.5rem;
-    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
+    font-size: 3em;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
 }
 
 header > p {
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.418);
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.308);
 }
 
 nav {
@@ -63,32 +64,24 @@ nav > a:hover {
 
 main {
     background-color: whitesmoke;
-    padding: 10px;
-    width: 58%;
+    padding: 5px;
+    width: 90vw;
     margin: auto;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.233);
     border-radius: 0px 0px 10px 10px;
 }
 
-main h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    margin-top: 25px;
-    padding: 20px 10px 10px 10px;
-    font-size: 40px;
-}
-
-main h2 {
-    font-family: 'Bebas Neue', sans-serif;
-    padding: 10px;
-    font-size: 40px;
-}
-
 main p {
-    font-size: 17px;
+    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
-    padding: 10px 10px 30px 10px;
+    padding: 2px;
     text-align: justify;
-    line-height: 25px;
+    height: 50px;
+}
+
+main img {
+    width: 42vw;
+    height: 12vh;
 }
 
 p > a {
@@ -102,7 +95,7 @@ p> a:hover {
 
 section > div {
     columns: 2;
-    padding: 20px;
+    padding: 10px;
 }
 
 div {
@@ -117,10 +110,10 @@ div {
 footer {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     background-color: var(--azul);
-    margin-top: 60px;
+    margin-top: 146px;
     padding: 5px;
     color: #e9e4c8;
     text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.315);
