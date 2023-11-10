@@ -82,6 +82,7 @@ main p {
 main img {
     width: 42vw;
     height: 12vh;
+    border-radius: 10px;
 }
 
 p > a {
