@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #0145fe, #5f00ff);
+    background-color: white;
 }
 
 .barra {
@@ -17,7 +17,7 @@ body {
     padding: 10px;
 }
 
-.barra-cima > img {
+a > img {
     width: 25%;
     border-radius: 100%;
 }
@@ -62,7 +62,7 @@ header > p {
     padding-bottom: 40px;
 }
 
-main {
+aside {
     background-color: darkblue;
 }
 
@@ -82,4 +82,19 @@ main {
 
 .ctd-cima > iframe {
     margin: auto;
+}
+
+main {
+    margin: 10px 10px;
+}
+
+main > div {
+    display: flex;
+    margin: 5px 0px;
+}
+
+div > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 5px;
 }
