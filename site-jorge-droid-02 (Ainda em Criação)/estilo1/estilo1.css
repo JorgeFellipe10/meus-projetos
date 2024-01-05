@@ -11,8 +11,14 @@ body {
     color: rgb(250, 247, 242);
 }
 
+header {
+    background-image: linear-gradient(to right, #c301fe, #419abe);
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.562);
+    padding: 1px;
+}
+
 header > a {
-    margin: 30px;
+    margin: 10px;
     display: flex;
     text-decoration: none;
     color: white;
@@ -23,9 +29,10 @@ header > a:hover {
 }
 
 a > h1 {
-    padding-left: 8px;
     padding-top: 4.5px;
+    padding-left: 5px;
     font-size: 20px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.520);
 }
 
 a > img {
@@ -35,25 +42,26 @@ a > img {
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 div > h1 {
-    margin-top: 100px;
-    padding-left: 100px;
     font-size: 80px;
+    margin-right: 180px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.520);
 }
 
 div > button {
-    margin-left: 100px;
-    margin-top: 30px;
     padding: 15px;
+    margin-top: 20px;
     width: 190px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
     border-radius: 30px;
     border: none;
-    color: black;
     background-image: linear-gradient(to right, #0145fe, #5f00ff);
 }
 
@@ -70,6 +78,5 @@ div > button:hover {
 div > img {
     width: 550px;
     border-radius: 30px;
-    margin: 50px 0px 0px 150px;
     box-shadow: 8px 8px 20px rgba(0, 81, 255, 0.11);
 }

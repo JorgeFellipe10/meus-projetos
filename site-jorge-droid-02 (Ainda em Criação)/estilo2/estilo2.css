@@ -3,60 +3,83 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right, #0145fe, #5f00ff);
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #0145fe, #5f00ff);
+    padding: 10px;
+}
+
+.barra-cima > img {
+    width: 25%;
+    border-radius: 100%;
+}
+
+input[type="search"]  {
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: lightgray;
+}
+
+button > span {
+    padding: 0px 10px 15px 10px;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #0145fe, #5f00ff);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #0145fe, #5f00ff);
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
 header > h1 {
-    color: white;
-    font-size: 40px;
+    text-align: center;
     padding: 20px;
+    color: white;
 }
 
 header > p {
-    color: white;
+    text-align: center;
     font-size: 20px;
-    padding-bottom: 20px;
-}
-
-nav {
-    background-color: #5f00ff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
-}
-
-nav > a {
     color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-nav > a:hover {
-    background-color: #0145fe;
-    color: whitesmoke;
-    border-radius: 10px;
+    padding-bottom: 40px;
 }
 
 main {
-    background-color: #bac5e2e7;
-    width: 80%;
-    margin: auto;
+    background-color: darkblue;
 }
 
-div {
+.ctd-cima {
     display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
 
-div > p {
+.ctd-cima > p {
+    text-align: center;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.ctd-cima > iframe {
+    margin: auto;
 }
